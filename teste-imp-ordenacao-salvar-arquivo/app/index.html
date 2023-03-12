@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercicio 1 e 2</title>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<!--O bootstrap possui estilos pré definidos, entao algumas coisas já possuem estilização como  por exemplo ao colocarmos
+as classes form-control para estilizar o input e btn e btn-primary para estilizar o botão-->
+<body>
+    <div class="container">
+        <h1>Ordena Números:</h1>
+        <form>
+            <div class="form-group">
+                <label for="number">Digite um número:</label>
+                <input type="number" class="form-control" id="number">
+            </div>
+            <button type="button" class="btn btn-primary" id="addNumberButton">Adicionar</button>
+            <button type="button" class="btn btn-primary" id="saveNumberButton">Adicionar</button>
+        </form>
+        <hr>
+        <table class="table">
+            <tbody id="numbersTable">
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+
+</html>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <script src="../app/js/seu_codigo.js"></script>
